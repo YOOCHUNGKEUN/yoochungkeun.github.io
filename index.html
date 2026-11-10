@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="단어팡은 단어를 조합하며 새로운 낱말을 발견하는 게임입니다.">
+    <title>단어팡 | 85Chong</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        display: grid;
+        min-height: 100vh;
+        margin: 0;
+        padding: 24px;
+        place-items: center;
+        background: #f3f9ef;
+        color: #193c29;
+      }
+
+      main {
+        width: min(100%, 560px);
+        padding: clamp(28px, 6vw, 48px);
+        border: 1px solid #dcebd8;
+        border-radius: 24px;
+        background: #fff;
+        box-shadow: 0 14px 40px rgb(25 60 41 / 8%);
+      }
+
+      h1 {
+        margin: 0 0 14px;
+        font-size: clamp(2rem, 6vw, 2.7rem);
+        line-height: 1.2;
+      }
+
+      p {
+        margin: 0 0 32px;
+        font-size: 1.05rem;
+        line-height: 1.7;
+      }
+
+      nav { display: flex; flex-wrap: wrap; gap: 12px; }
+
+      a {
+        display: inline-block;
+        padding: 12px 18px;
+        border-radius: 12px;
+        background: #e7f5e4;
+        color: #195b37;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      a:hover { background: #d4ebcf; }
+      a:focus-visible { outline: 3px solid #195b37; outline-offset: 3px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>단어팡</h1>
+      <p>단어를 조합하며 새로운 낱말을 발견하는 게임입니다.</p>
+      <nav aria-label="단어팡 관련 링크">
+        <a href="https://play.google.com/store/apps/details?id=yck.kr.word_alchemy_new">Google Play에서 보기</a>
+        <a href="https://app.notion.com/p/373f91b4b9b5805f9a61c16b71f94716">개인정보처리방침</a>
+      </nav>
+    </main>
+  </body>
+</html>
